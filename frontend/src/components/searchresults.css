@@ -1,0 +1,103 @@
+.amountOfTransactions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-btn{
+  padding: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.sub-btn.subbed{
+  background-color: #5b962a;
+}
+
+.sub-btn.nsubbed{
+  background-color: #8d1a1a;
+}
+
+.searchResults {
+  margin: 2rem 11.5rem;
+  border: 1px solid #222222;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0 1.5rem #ffffff09;
+  padding: 1rem;
+}
+
+.searchResults > p {
+  letter-spacing: 0.02rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #191919;
+  margin-bottom: 1rem;
+}
+
+.blueText {
+  color: #0d2c81;
+}
+
+.txnSection {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.txnTitle {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #191919;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.txnTitle > th {
+  width: 9rem;
+  text-align: center;
+}
+
+.txn {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #191919;
+}
+
+.txn > td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.inTxn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #82b53bb9;
+  color: #5b962a;
+  border: 1px solid #4c3f1e;
+  border-radius: 0.3rem;
+}
+
+.outTxn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #a04f4fb9;
+  color: #8d1a1a;
+  border: 1px solid #4c3f1e;
+  border-radius: 0.3rem;
+}

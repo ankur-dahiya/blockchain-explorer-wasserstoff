@@ -1,0 +1,29 @@
+.home_container{
+    margin-top: 100px;
+}
+
+.home_search{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.home_search input{
+    font-size: 15px;
+    width: 500px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+}
+
+.home_search button{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
